@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alata&family=Bangers&family=Montserrat:wght@200&display=swap');
+        </style>
+
+</head>
+
+<body>
+    <div class="title">
+        <h class="type">Typing Test</h>
+        <img src="resources/keyboard.svg" id="svg1"><img>
+        <img src="resources/whiteb.png" id="w1"><img>
+    </div>
+    <div class="timernresult">
+        <span class="timer">
+            <span class="tmr">Timer:</span>
+            <span class="vtime" id="timer"></span>
+        </span>
+        <span class="restart">
+                <button onClick="document.location.reload(true)" class="restart button" id="sg2" value="Reload Page" >
+                   Restart 
+                </button>
+        </span>
+        <span>
+            <button class="stbtn" id="start-test" onclick="startTest()">Start Test</button>
+        </span>
+        
+    </div>
+
+    <div class="textarea">
+        <img src="resources/back1.png" id="back"></img>
+        <div class="mirror"    onmousedown="return false"
+        onselectstart="return false" id="quote"></div>
+        
+            <textarea name="text" id="quote-input" class="text" placeholder="Start typing here..." autofocus></textarea>
+
+
+        
+    </div>
+    <div class="result">
+        <span class="s1"><span>WPM:</span>
+            <span class="vwpm" id="wpm"></span> </span>
+        <span class="s2"><span>Accuracy:</span>
+            <span class="vacc" id="accuracy"></span>
+         </span>
+        
+    </div>
+    
+    <div class="end">
+        <img src="resources/whiteb.png" id="w2"><img>
+        <p class="endtext">
+            Task 1 DVM
+            Vinayak Srivastava
+            2021B1PS2313P
+        </p>
+    </div>
+</body>
+<script src="scriptmain.js" defer></script>
+
+</html>

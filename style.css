@@ -1,0 +1,306 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 3vh 15vw 0 15vw;
+    justify-content: space-between;
+    
+    margin: 0;
+    z-index: 0;
+    font-family: 'Alata', sans-serif;
+    color: #000000;
+    background: linear-gradient(to top right ,#6dd89c,#71b9de);
+  }
+
+  .textarea{
+   font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .timernresult{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60vw;
+    margin: 0;
+    
+  }
+
+ 
+  .title{
+    
+    height: 12vh;
+    width: 70vw;
+    margin: 0;
+    display: flex;
+    padding-left: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-radius:10px;
+    font-size: 1rem;
+    
+  }
+
+  .type{
+   position: absolute;
+   top: 1vw;
+   
+   font-size: 4.3em;
+   font-family: 'Bangers', cursive;
+}
+  #svg1{
+    margin-left:18rem;
+    height: 4em;
+    width: 4em;
+  }
+
+ .timernresult{
+    height: 8vh;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+ .timer{
+    height: 6vh;
+    width: 10rem;
+    background: #4fc68c;
+    border-radius:50px;
+    display: flex;
+    color: #e5f6ff;
+    min-width: 6.5rem;
+    flex-wrap: wrap;
+    z-index: 10;
+    justify-content: center;
+    vertical-align: middle;
+    font-size: 1.2rem;
+    padding-top: 0.4%;
+ }
+ .stbtn{
+    height: 6vh;
+    background:#60aace;
+    border: none;
+    border-radius: 50px;
+    width: 10rem;
+    font-family: 'Alata', sans-serif;
+    font-size: 1.2rem;
+    color: #e5f6ff;
+    flex-wrap: wrap;
+    min-width: 3.5rem;
+    right:20vw;
+ }
+
+ .restart button{
+   height: 6vh;
+   background:#60aace;
+   border: none;
+   border-radius: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   font-family: 'Alata', sans-serif;
+   vertical-align: middle;
+   position: absolute;
+   right:20vw;
+   top:17vh;
+   color: #e5f6ff;
+   flex-wrap: wrap;
+   padding-left: 4rem;
+   
+}
+.restart{
+   width: 10rem;
+  
+   display: flex;
+   justify-content: center;
+   font-size: 1.2rem;
+   
+}
+.p1{
+  
+   font-size: 1.2rem;
+}
+.p2{
+   position: relative;
+   
+   }
+
+ 
+ .result{
+    height: 8vh;
+    width: 47vw;
+    border: 3px solid #000000;
+    border-radius:50px; 
+    display: flex;   
+    justify-content:space-around;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+    flex-wrap: wrap;
+    font-size: 2.5vh;
+ }
+
+
+
+.tmr{
+   align-content: center;
+   width: 65%;
+   margin-left: 5%;
+   font-size: 1.2rem;
+   vertical-align: middle;
+}
+.vtime{
+   width: 5%;
+   align-content: center;
+   
+   display: flex;
+   justify-content: center;
+
+   
+   text-align: center;
+   
+   font-size: 1.2rem;
+   color:#eea64a;
+   padding-top: 3%;
+}
+
+ 
+.s1,.s2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ .textarea{
+    border: transparent;
+    border-radius: 15px;
+    width: 70vw;
+    height: 50vh;
+    display: flex;
+   
+    
+    
+ }
+ #back{
+   position: absolute;
+   top:29vh;
+   left:20vw;
+   width: 60vw;
+   height: 51vh;
+   z-index: -9;
+ }
+
+ :focus {
+    outline: 0;
+    outline-color: transparent;
+    outline-style: none;
+  }
+ .text{
+    margin:0 4vw 3vh 12vw;
+    width: 45vw;
+    height: 20vh;
+    background-color: #d1dadc;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #65696b;
+   z-index: 10;
+    
+    
+ }
+
+ .end{
+    font-size: 10px;
+    color: black;
+    
+ }
+
+
+
+
+.mirror{
+    
+    
+    font-size: 1.2em;
+    color: #65696b;
+    background-color: aliceblue;
+    margin:3vh 4vw 0 12vw;
+    width: 45vw;
+    height: 40vh;
+    font-weight: bold;
+ 
+    overflow-y: auto;
+    
+}
+.vacc,.vwpm{
+    color:#3c7ed8;
+    
+}
+
+.success {
+   color: #44b267;
+ }
+ .fail {
+   color: #ba4269;
+ }
+
+ #w1{
+   position: absolute;
+   top:0;
+   left:0;
+   height:12vh;
+   width: 100vw;
+   z-index: -10;
+ }
+ 
+ #w2{
+   position: absolute;
+   top:72vh;
+   left:0;
+   height:28vh;
+   width: 100vw;
+   z-index: -10;
+ }
+.tmr{
+
+   position: relative;
+   margin-top: 4%;
+
+
+
+
+}
+ @media screen and (max-width:450px)
+ {
+   .tmr{
+
+      display: flex;
+      justify-content: center;
+      margin-top: 7%;
+   
+   
+   
+   }
+    
+   #svg1{
+      display: none;
+   }
+   .vtime{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      left: 4%;
+      top:15%;
+      font-size: 1.2rem;
+      color:#eea64a
+      
+   }
+ }
